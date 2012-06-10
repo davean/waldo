@@ -10,10 +10,10 @@ Name:                waldo
 Version:             0.1
 
 -- A short (one-line) description of the package.
--- Synopsis:            
+Synopsis: A small Haskell server for generating visual stories based on some ascertainable data about the requester.
 
 -- A longer description of the package.
--- Description:         
+Description: This package was writen to power xkcd.com's 2012 April Fools comic "Umwelt" (http://xkcd.com/1037). It uses several datasets and a script to generate a customized story specific to the user viewing it.
 
 -- The license under which the package is released.
 License:             BSD3
@@ -71,7 +71,6 @@ Executable waldo
     , blaze-builder == 0.3.*
     , safe == 0.3.*
     , regex-tdfa == 1.*
-    , MissingH == 1.*
     , Geodetic == 0.4
     , SHA == 1.5.*
 
@@ -102,9 +101,7 @@ Executable bench
     , wai == 1.1.*
     , http-types == 0.6.*
     , case-insensitive == 0.4.*
-    , warp == 1.1.*
     , blaze-builder == 0.3.*
-    , random == 1.*
     , safe == 0.3.*
     , regex-tdfa == 1.*
     , MissingH == 1.*
